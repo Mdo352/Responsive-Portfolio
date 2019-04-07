@@ -162,3 +162,61 @@ footer{
     color: #ffffff;
     margin-top:30px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 980px){
+    #content{
+        width: 80%;
+    }
+
+    #headerContainer{
+        width: 86.5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    body{
+        line-height: 125%;
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 85%;
+        width: 29%;
+        padding-top:33px;
+    }
+
+    #content{
+        width: 75%;
+    }
+
+    #headerContainer{
+        width: 84%;
+    }
+
+    .headerLink{
+        font-size: 15px;
+        padding-top: 33px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    
+    h1{
+        width: 38%;
+    }
+
+    .headshot{
+        float:none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .projectCell{
+        float:none;
+        display: block;
+        margin-left: 100px;
+    }
+
+}
